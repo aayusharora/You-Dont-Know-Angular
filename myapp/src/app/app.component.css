@@ -1,0 +1,9 @@
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.login, .signup {
+  width: 50%;
+}
+

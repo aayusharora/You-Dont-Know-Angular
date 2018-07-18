@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+button {
+  position: absolute;
+  left: calc(50% - 150px / 2);
+  bottom: calc(- 50px / 2);
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Economica', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: mediumblue;
+  transition: all 0.2s ease;
+}
+
+button:hover { background: midnightblue; }
+
+button.valid,
+button.valid:hover { background: mediumseagreen; }
